@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f3f4f6;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(90deg, #c1291e, #910318); /* Dégradé du rouge foncé au rouge intense */
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile pour l'effet moderne */
+    border-bottom: 4px solid #910318; /* Bordure légère en bas */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px; /* Espacement des lettres pour un effet plus moderne */
+}
+
+header h2 {
+    margin: 1rem 0 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase; /* Mise en majuscule du sous-titre */
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section titles */
+h3 {
+    font-size: 1.6rem;
+    color: #c1291e;
+    border-bottom: 2px solid #9c150b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #910318;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.clair {
+    background-color: #fafaf6b8;
+    font-weight: bold;
+}
+
+.fonce {
+    background-color: #ffffff64;
+}
+/* li:nth-child(odd) {
+    background-color: #F2D0D0;
+}
+
+li:nth-child(even) {
+    background-color: #F1A9A0;
+} */
+
+li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #c1291e;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #910318;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(90deg, #c1291e, #910318);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #910318;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.6;
+}
